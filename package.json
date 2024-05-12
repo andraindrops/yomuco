@@ -1,0 +1,33 @@
+{
+  "name": "yomuco",
+  "version": "0.0.8",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "crawler"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andraindrops/yomuco#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andraindrops/yomuco.git"
+  },
+  "bugs": "https://github.com/andraindrops/yomuco/issues",
+  "author": "Junichi Takahashi <jun@andraindrops.dev>",
+  "devDependencies": {
+    "@types/bun": "^1.1.1",
+    "bun-plugin-dts": "^0.2.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
