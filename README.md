@@ -42,7 +42,7 @@ browser.close();
 const browser = await getBrowser();
 
 for (const url of urls) {
-  const page = await getContent({
+  const content = await getContent({
     context: await browser.newContext(),
     url,
     selector: "main",
