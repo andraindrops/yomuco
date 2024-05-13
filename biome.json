@@ -14,30 +14,6 @@
   },
   "formatter": {
     "enabled": true,
-    "formatWithErrors": false,
-    "indentStyle": "space",
-    "indentWidth": 2,
-    "lineEnding": "lf",
-    "lineWidth": 80,
-    "attributePosition": "auto"
-  },
-  "javascript": {
-    "formatter": {
-      "jsxQuoteStyle": "double",
-      "quoteProperties": "asNeeded",
-      "trailingComma": "all",
-      "arrowParentheses": "always",
-      "bracketSpacing": true,
-      "bracketSameLine": false,
-      "attributePosition": "auto"
-    }
-  },
-  "overrides": [
-    {
-      "include": ["*.json"],
-      "formatter": {
-        "indentWidth": 2
-      }
-    }
-  ]
+    "indentStyle": "space"
+  }
 }
