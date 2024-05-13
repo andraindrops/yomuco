@@ -52,6 +52,24 @@ for (const url of urls) {
 browser.close();
 ```
 
+## Format
+
+```bash
+bunx @biomejs/biome format --write .
+```
+
+## Lint
+
+```bash
+bunx @biomejs/biome lint --apply .
+```
+
+## Test
+
+```bash
+bun test
+```
+
 ## License
 
 MIT
