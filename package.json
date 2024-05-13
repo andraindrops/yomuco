@@ -5,15 +5,12 @@
   "types": "dist/index.d.ts",
   "description": "",
   "scripts": {
+    "lint": "@biomejs/biome lint src",
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
   },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "crawler"
-  ],
+  "files": ["dist"],
+  "keywords": ["crawler"],
   "license": "MIT",
   "homepage": "https://github.com/andraindrops/yomuco#readme",
   "repository": {
@@ -23,6 +20,7 @@
   "bugs": "https://github.com/andraindrops/yomuco/issues",
   "author": "Junichi Takahashi <jun@andraindrops.dev>",
   "devDependencies": {
+    "@biomejs/biome": "^1.7.3",
     "@types/bun": "^1.1.1",
     "bun-plugin-dts": "^0.2.3",
     "typescript": "^5.4.5"

@@ -1,5 +1,5 @@
 import playwright from "playwright";
-import * as path from "path";
+import * as path from "node:path";
 
 export const getBrowser = async () => {
   return await playwright.chromium.launch();
@@ -42,7 +42,7 @@ export const getUrls = async ({
 
         const absoluteUrl = new URL(href, url);
 
-        if (new URL(absoluteUrl).host == new URL(fromUrl).host) {
+        if (new URL(absoluteUrl).host === new URL(fromUrl).host) {
           const extname = path.extname(absoluteUrl.href);
 
           if (

@@ -3,8 +3,7 @@
     "GitHub.copilot",
     "EditorConfig.EditorConfig",
     "streetsidesoftware.code-spell-checker",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
+    "biomejs.biome",
     "bradlc.vscode-tailwindcss",
     "ms-playwright.playwright",
     "Prisma.prisma"
