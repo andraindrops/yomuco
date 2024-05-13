@@ -5,7 +5,6 @@
   "types": "dist/index.d.ts",
   "description": "",
   "scripts": {
-    "lint": "@biomejs/biome lint src",
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
   },
